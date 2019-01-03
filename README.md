@@ -1,6 +1,6 @@
 # JMeter Tuning
 
-this is a simple Jmeter Tuning project
+Load Testing and Tuning a Simple Web Application
 
-## 1st Section
-* 1st bullet
+## Function
+* load test functional behavior and measure performance of web sites
