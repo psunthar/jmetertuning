@@ -1,1 +1,33 @@
-##This File Contains Default and Changed Apache and MySQL Values
+## This File Contains Default and Changed Apache and MySQL Values
+
+# Default Apache Values
+
+ Max Request Workers: 150
+ Max Spare Servers: 10
+ Start Server: 5
+ Max Connection per child: 0
+
+
+# Changed Apache Values
+
+ Max Request Workers: 50
+ Max Spare Servers: 5
+ Start Server: 20
+ Max Connection per child: 10
+
+
+
+
+# Default MySQL Values
+ 
+ thread_catch_size: 8
+ max_allowed_packet: 16M
+
+
+# Changed MySQL Values
+ 
+ thread_catch_size: 16
+ max_allowed_packet: 8M
+
+
+
